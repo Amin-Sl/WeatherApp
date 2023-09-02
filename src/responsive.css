@@ -1,0 +1,47 @@
+@media only screen and (max-width: 430px) {
+
+    .search-bar {
+        height: 95px;
+        padding-top: 20px;
+    }
+
+    .search-bar>input {
+        height: 25px;
+        width: 100px;
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .logo,
+    .city {
+        width: 60px;
+        font-size: 15px;
+        background-color: unset;
+    }
+
+    .logo {
+        background-color: rgba(124, 124, 137, 0.64);
+        ;
+    }
+    .total{
+        display: block;
+        margin-top: 1rem;
+        padding-top:.1rem;
+    }
+    .label {
+        width: 42px !important;
+        height: 15px !important;
+    }
+    .ball {
+        width: 16px !important;
+        height: 13px !important;
+        border-radius: 43% !important;
+    }
+    .nodata{
+        text-align: center;
+    }
+.nodata h1{
+
+    font-size: 15px;
+}
+}

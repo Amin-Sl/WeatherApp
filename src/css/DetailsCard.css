@@ -1,0 +1,130 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  /* background-color: var(--cardColor); */
+  /* box-shadow: var(--profileShadow); */
+  border-radius: 1rem;
+  margin: 1rem;
+  margin-bottom: 1rem;
+}
+
+.details:hover {
+  transition: all 0.2s ease-out;
+  /* box-shadow: 0px 10px 17px 2px rgba(74, 68, 68, 0.25); */
+  top: -4px;
+}
+
+.clouds {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 0.75rem;
+}
+
+.celsius {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--tempColor);
+}
+
+.cloud-icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.75rem;
+  /* justify-content: center; */
+}
+
+.cloud-icon img {
+  width: 100px;
+}
+
+.des {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 1.75rem;
+}
+
+.time {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.vl {
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid var(--hrColor);
+}
+
+.more-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 0.75rem;
+  padding-right: 2rem;
+}
+
+.more-info p {
+  font-weight: 600;
+}
+
+.more-info p>span {
+  color: var(--statsColor);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1150px) {
+  .celsius {
+    font-size: 1.5rem;
+  }
+
+  .cloud-icon {
+    font-size: 1rem;
+  }
+
+  .des {
+    font-size: 1rem;
+  }
+
+  .cloud-icon img {
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .details{
+    justify-content: center;
+    text-align: center;
+    padding: .5rem;
+    margin: 0.3rem;
+    margin-top: 1rem;
+  }
+  .view{
+    padding-top: 6rem;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .view{
+    padding-top: 0.5rem;
+}
+  .details{
+    justify-content: center;
+    text-align: center;
+    padding: .5rem;
+    margin: 0.3rem;
+  }
+  .cloud-icon{
+    justify-content: center;
+    margin-left:20px;
+  }
+  .time{
+    font-size: 0.7rem;
+  }
+  .s-icon {
+    height: 25px;
+}
+}
